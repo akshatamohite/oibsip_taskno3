@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+
+
+    align-items: center;
+    height: 100vh;
+    background-image: url('temp.webp');
+    background-blend-mode: luminosity;
+    background-size: 100%;
+}
+
+body div h1 {
+    background-color: #4e6884;
+    padding: 2%;
+    width: 200px;
+    color: white;
+    margin: 30px;
+}
+
+.converter {
+    background-color: #4e6884;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 550px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 20px;
+    padding-right: 30px;
+}
+
+select {
+    padding: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #113051;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 10px;
+}
